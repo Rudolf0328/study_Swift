@@ -65,3 +65,69 @@ var someAnyObjet: AnyObject = SomeClass()
 // someAny = nil 오류
 // someAnyObjet = nil 오류
 
+
+// Day 2
+
+import Swift
+
+var integers: Array<Int> = Array<Int>()
+integers.append(1)
+integers.append(100)
+// 다른 타입은 못 넣는다.
+
+print(integers)
+
+integers.contains(100)
+integers.contains(99)
+
+integers[0] = 99
+
+integers.remove(at: 0)
+integers.removeLast()
+integers.removeAll()
+
+integers.count
+
+// integers[0] 인덱스 벗어남 에러
+
+var strings: [String] = [String]()
+var characters: [Character] = []
+
+let immutableArray = [1, 2, 3]
+
+// Dictionary type
+var anyDictionary: Dictionary<String, Any> = [String: Any]()
+anyDictionary["someKey"] = "value"
+anyDictionary["anotherKey"] = 100
+
+anyDictionary
+// 순서는 임의로 저장
+
+anyDictionary["someKey"] = "dictionary"
+
+anyDictionary.removeValue(forKey: "anotherKey")
+anyDictionary["someKey"] = nil // 위에랑 같은 말
+
+anyDictionary
+
+let emptyDictionary: [String: String] = [:]
+let initializedDictionary: [String: String] = ["name": "yagom", "gender": "male"]
+
+// let someValue: String = initializedDictionary["name"] String인거 알지만 에러 값이 있을 수도 있고 없을 수도 있다.
+
+// Set
+var integerSet: Set<Int> = Set<Int>()
+integerSet.insert(1)
+integerSet.insert(1) // 같은 값 한개만 저장된다.
+
+let setA: Set<Int> = [1, 2, 3, 4, 5]
+let setB: Set<Int> = [3, 4, 5, 6, 7]
+
+let union: Set<Int> = setA.union(setB)
+
+let sortedUnion: [Int] = union.sorted()
+
+let intersection: Set<Int> = setA.intersection(setB)
+
+let subtracting: Set<Int> = setA.subtracting(setB)
+
