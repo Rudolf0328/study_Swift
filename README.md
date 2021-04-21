@@ -11,3 +11,4 @@ Day5 : 28-30 & Quiz 3 & 코스를 마치며
 https://www.boostcourse.org/mo122/joinLectures/38564
 
 4월 29일 부터 시작
+중간고사 공부 관련 git 만들기
