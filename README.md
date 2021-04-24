@@ -13,3 +13,6 @@ https://www.boostcourse.org/mo122/joinLectures/38564
 4월 29일 부터 시작
 중간고사 공부 관련 git 만들기
 발표주제 : git에 대해서
+
+컴퓨터 그래픽스
+컴퓨터 구조론
