@@ -16,3 +16,5 @@ https://www.boostcourse.org/mo122/joinLectures/38564
 
 컴퓨터 그래픽스
 컴퓨터 구조론
+
+
